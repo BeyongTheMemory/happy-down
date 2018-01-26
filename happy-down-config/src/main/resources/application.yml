@@ -19,3 +19,7 @@ spring.datasource:
     filters: stat
 
 
+server:
+  port: 7001
+
+
