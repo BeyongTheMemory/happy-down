@@ -28,13 +28,13 @@
         </dependency>
 
         <dependency>
-            <groupId>com.top.mini</groupId>
-            <artifactId>happy-down-common</artifactId>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>redis.clients</groupId>
-            <artifactId>jedis</artifactId>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
 
         <dependency>

@@ -7,6 +7,8 @@ import com.top.mini.happy.down.dto.UserDTO;
  */
 
 public interface UserService {
+
     void save(UserDTO userDTO);
 
+    UserDTO getByUnionId(String unionId);
 }

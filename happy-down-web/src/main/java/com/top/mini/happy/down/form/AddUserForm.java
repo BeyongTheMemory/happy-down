@@ -3,6 +3,7 @@ package com.top.mini.happy.down.form;
 import lombok.Data;
 import org.hibernate.validator.constraints.NotBlank;
 
+
 /**
  * @author xugang on 18/1/26.
  */

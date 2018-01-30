@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.top.mini</groupId>
-            <artifactId>happy-down-config</artifactId>
+            <artifactId>happy-down-common</artifactId>
         </dependency>
     </dependencies>
 

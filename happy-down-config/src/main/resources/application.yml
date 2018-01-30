@@ -10,7 +10,6 @@ spring.datasource:
     maxWait: 60000
     timeBetweenEvictionRunsMillis: 60000
     minEvictableIdleTimeMillis: 30000
-    maxEvictableIdleTimeMillis: 40000
     validationQuety: SELECT 1
     testWhileIdle: true
     testOnBorrow: false

@@ -1,6 +1,7 @@
 package com.top.mini.happy.down.dal;
 
 import com.top.mini.happy.down.entity.UserEntity;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -16,6 +17,8 @@ public interface UserDAO {
     int insertSelective(UserEntity record);
 
     UserEntity selectByPrimaryKey(Integer id);
+
+    UserEntity selectByUnionId(@Param("unionId") String unionId);
 
     int updateByPrimaryKeySelective(UserEntity record);
 

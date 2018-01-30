@@ -73,7 +73,7 @@
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
-                <version>1.2.44</version>
+                <version>1.2.45</version>
             </dependency>
 
             <dependency>
@@ -116,6 +116,12 @@
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-aspects</artifactId>
                 <version>5.0.3.RELEASE</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>23.6-jre</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
